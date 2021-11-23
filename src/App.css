@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  background-color: #1f1f1f;
+  color: #ddd;
+  font-family: "Lato", arial, sans-serif;
+}
+
+h3 {
+  font-size: 22px;
+  margin-block-start: 0px;
+  margin-block-end: 16px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-block-start: 0px;
+  margin-block-end: 16px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h5 {
+  font-size: 16px;
+  color: #ddd;
+  margin-block-start: 0px;
+  margin-block-end: 4px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p {
+  font-size: 14px;
+  color: #ddd;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #5d5d5d;
+}
+
+button {
+  height: 36px;
+  min-width: 36px;
+  border-radius: 4px;
+  padding: 0px;
+  color: #ff7731;
+  background-color: #343434;
+  border: 1px solid #5d5d5d;
+}
+
+.container {
+  padding: 16px;
+  max-width: 400px;
+}
+
+.link {
+  font-size: 14px;
+  color: #ff7731;
+}
+
+.link.far-right {
+  display: none;
+}
+
+.spacer {
+  margin-bottom: 16px;
+}
+
+.icon {
+  background-color: red;
+  padding: 8px;
+}
+
+.small {
+  font-size: 11px;
+  line-height: 16px;
+  color: #ddd;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.fas {
+  font-size: 36px;
+}
+
+.danger.fas {
+  font-size: 37px;
+}
+
+.triangle.fas {
+  font-size: 34px;
+}
+
+.ghost.fas {
+  font-size: 0px;
+}
+
+.sign {
+  font-size: 19px;
+  margin: auto;
+}
+
+.inner-indicator {
+  display: flex;
+  position: relative;
+  width: 36px;
+}
+
+.card {
+  border: 1px solid #5d5d5d;
+  background-color: #343434;
+  border-radius: 4px;
+  padding: 14px 16px 12px 16px;
+  margin: 0px 0px 16px 0px;
+  cursor: pointer;
+  overflow: auto;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card .nav {
+  display: none;
+}
+
+.card h5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card .link {
+  display: block;
+}
+
+.card .output {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card .small {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.nav {
+  margin-bottom: 16px;
+}
+
+.output {
+  margin-block-start: 8px;
+  margin-block-end: 12px;
+}
+
+.alert {
+  float: left;
+  margin-right: 8px;
+}
+
+.left {
+  display: flex;
+}
+
+.right {
+  width: 100%;
+  margin: 0 0 0 8px;
+}
+
+.nav .right {
+  margin: 7px 0 0 8px;
+}
+
+.far-right {
+  display: flex;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+
+.back {
+  font-size: 16px;
+}
+
+.danger {
+  color: #d22850;
+}
+
+.warning {
+  color: #ffac31;
+}
+
+.ok {
+  color: #0a8554;
+}
+
+.mine-shaft-light {
+  color: #343434;
+}
+
+.disabled {
+  color: #5d5d5d;
+}
+
+.gray {
+  color: #878787;
+}
+
+.white {
+  color: #ddd;
+}
+
+.indicator {
+  float: right;
+  margin-left: 16px;
+  text-align: center;
+}
+
+.inner-indicator {
+  height: 37px;
+}
+
+.logo {
+  width: 64px;
+  position: relative;
+  left: 50%;
+  bottom: 16px;
+  margin-top: 40px;
+  margin-left: -32px;
+}
